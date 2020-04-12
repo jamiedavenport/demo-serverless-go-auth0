@@ -1,2 +1,6 @@
 github.com/aws/aws-lambda-go v1.6.0 h1:T+u/g79zPKw1oJM7xYhvpq7i4Sjc0iVsXZUaqRVVSOg=
 github.com/aws/aws-lambda-go v1.6.0/go.mod h1:zUsUQhAUjYzR8AuduJPCfhBuKWUaDbQiPOG+ouzmE1A=
+github.com/dgrijalva/jwt-go v3.2.0+incompatible h1:7qlOGliEKZXTDg6OTjfoBKDXWrumCAMpl/TFQ4/5kLM=
+github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
+github.com/jamiedavenport/go-auth0-jwt v0.1.0 h1:RIOfBHOn8DnsKXDanXbOzJZ5FeWj0cTGEMegy42J09o=
+github.com/jamiedavenport/go-auth0-jwt v0.1.0/go.mod h1:WFPC7bKqsz5GY/DL3yO0r/XRIIrYkToseah/wt0x4/w=

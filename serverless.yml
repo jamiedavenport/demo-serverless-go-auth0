@@ -15,15 +15,21 @@ package:
     - ./bin/**
 
 functions:
+  auth:
+    handler: bin/authorizer
+
   hello:
     handler: bin/hello
     events:
       - http:
           path: hello
           method: get
+          authorizer: auth
+
   world:
     handler: bin/world
     events:
       - http:
           path: world
           method: get
+          authorizer: auth
