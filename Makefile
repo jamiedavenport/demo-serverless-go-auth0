@@ -3,7 +3,6 @@
 build: gomodgen
 	export GO111MODULE=on
 	env GOOS=linux go build -ldflags="-s -w" -o bin/hello ./hello
-	env GOOS=linux go build -ldflags="-s -w" -o bin/world ./world
 	env GOOS=linux go build -ldflags="-s -w" -o bin/authorizer ./authorizer
 
 clean:
